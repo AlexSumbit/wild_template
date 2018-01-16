@@ -43,7 +43,7 @@ gulp.task('iconfont', function(){
 			fontPath: '../font/'
 		}))
 		.pipe(iconfont({
-			fontName: 'mogo-icons',
+			fontName: 'icons',
 			normalize: true,
 			fontHeight: 1001
 		}))
